@@ -110,14 +110,6 @@ div.extend-width {
   text-justify: distribute-all-lines;
 }
 
-.organizer-box {
-  width: 100%;
-  /*height: 100%;*/
-  vertical-align: top;
-  display: inline-block;
-  *display: inline;
-  zoom: 1
-}
 
 .speaker-box-text {
   width: 100%;
@@ -127,7 +119,7 @@ div.extend-width {
   *display: inline;
   zoom: 1;
   padding: 0;
-  margin: 0;
+  margin: 1rem;
   text-align: left;
 }
 
@@ -154,6 +146,18 @@ div.speaker-box-text p.title {
   line-height: 0
 }
 
+
+/* ORG START */
+
+.organizer-box {
+    width: 100%;
+    /*height: 100%;*/
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+  
 div.organizer-tile {
     text-align: center;
     /* width: 14.6%; */
@@ -164,7 +168,7 @@ div.organizer-tile {
 
 div.organizer-tile img {
     width: 100%;
-    max-width: 240px;
+    max-width: 140px;
     border-radius: 10%;
 }
 
@@ -178,6 +182,41 @@ div.organizer-tile p {
     padding: 0;
     margin: 0;
 }
+
+/* ORG END */
+
+
+/* SPEAKER START */
+
+.speaker-box {
+    vertical-align: top;
+    float: left;
+}
+ 
+div.speaker-tile {
+    text-align: center;
+    float: left;    
+}
+
+div.speaker-tile img {
+    width: 100%;
+    max-width: 240px;
+    border-radius: 10%;
+}
+
+div.speaker-tile p.speaker-name {
+    font-weight: 900;
+}
+
+div.speaker-tile p {
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 0;
+    margin: 0;
+}
+
+/* SPEAKER END */
+
 
 div.with-padding {
     padding: 2%;
