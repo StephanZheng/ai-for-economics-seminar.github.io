@@ -162,6 +162,12 @@ div.speaker-box-text p.title {
     text-align: left;
 }
 
+div.speaker-box-text p.abstract {
+}
+
+div.speaker-box-text p.bio {
+}
+
 @media (min-width: 550px){
     div.organizer-box {
         width: 27%;
@@ -189,7 +195,7 @@ div.speaker-box-text p.title {
     *display: inline;
     zoom: 1
 }
-  
+
 div.organizer-tile {
     text-align: center;
     /* width: 14.6%; */
@@ -224,15 +230,15 @@ div.organizer-tile p {
     vertical-align: top;
     float: left;
 }
- 
+
 div.speaker-tile {
     text-align: center;
-    float: left;    
+    float: left;
 }
 
 div.speaker-tile img {
-    width: 100%;
-    max-width: 240px;
+    width: 150px;
+    max-width: 150px;
     border-radius: 10%;
 }
 
